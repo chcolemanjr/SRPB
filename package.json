@@ -1,0 +1,13 @@
+{
+  "name": "srpb",
+  "version": "1.0.0",
+  "description": "Simple Rest Phone Book",
+  "main": "srpb.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4"
+  },
+  "author": "Chuck Coleman",
+  "license": "ISC"
+}

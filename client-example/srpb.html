@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Rest Phone Book</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <button id="createDisplay">Create</button><br>
+        <div id="createDiv" style="display: none">
+            <form id="createForm">
+                <fieldset>
+                    <input type="hidden" name="id" value="0"><br>
+                    First Name: <input type="text" name="fname"><br>
+                    Last Name: <input type="text" name="lname"><br>
+                    Phone Number: <input type="text" name="pnum"><br>
+                    <input id="createEntry" type="button" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+
+        <button id="retrieveDisplay">Retrieve</button><br>
+        <div id="retrieveDiv" style="display: none">
+            <div id="phoneList"></div>
+        </div>
+
+        <button id="updateDisplay">Update</button><br>
+        <div id="updateDiv" style="display: none">
+            <form id="updateForm">
+                <fieldset>
+                    ID: <input type="text" name="id" value="0"><br>
+                    First Name: <input type="text" name="fname"><br>
+                    Last Name: <input type="text" name="lname"><br>
+                    Phone Number: <input type="text" name="pnum"><br>
+                    <input id="updateEntry" type="button" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+
+        <button id="deleteDisplay">Delete</button><br>
+        <div id="deleteDiv" style="display: none">
+            <form>
+                <fieldset>
+                    ID: <input id="deleteId" type="text" name="fname"><br>
+                    <input id="deleteEntry" type="button" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+
+    </body>
+</html>
